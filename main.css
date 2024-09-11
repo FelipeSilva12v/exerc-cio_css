@@ -1,0 +1,112 @@
+img {
+    width: 100%;
+    max-width: 300px; /* Ajusta a largura máxima das imagens */
+    height: auto; /* Mantém a proporção das imagens */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    display: inline-block;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+nav li {
+    margin-left: 10px;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #323536;
+}
+
+nav a {
+    color: rgb(250, 247, 247);
+}
+
+.container1, .container2, .container3, .container4 {
+    padding: 20px; /* Adiciona espaçamento interno */
+}
+
+.container1 {
+    background-color: #d2f7b0;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+.container2 {
+    background-color: #7D7D7D;
+}
+
+.container3 {
+    background-color: #78C850;
+}
+
+.container4 {
+    background: #FFA500;
+}
+
+.div1, .container2, .container3, .container4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; /* Adiciona espaço entre os itens */
+}
+
+article {
+    display: flex;
+    flex-direction: column; /* Alinha o texto abaixo da imagem */
+    align-items: center;
+    text-align: center;
+    max-width: 300px; /* Define uma largura máxima para os artigos */
+}
+
+.div1 article {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.div1 img {
+    width: 300px; 
+    height: auto; 
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px; /* Bordas arredondadas */
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    text-align: center;
+    font-size: 16px; /* Tamanho da fonte */
+    transition: background-color 0.3s, transform 0.3s; /* Transições suaves */
+}
+
+a:hover {
+    background-color: #b33300; /* Cor de fundo ao passar o mouse */
+    transform: scale(1.05); /* Leve aumento ao passar o mouse */
+}
+
+a:active {
+    background-color: #004494; /* Cor de fundo quando o botão é pressionado */
+    transform: scale(1); /* Retorna ao tamanho original ao ser pressionado */
+}
